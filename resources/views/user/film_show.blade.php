@@ -40,7 +40,12 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="rating">Rating</label> <small>( 1-10 )</small>
-                                            <input type="number" name="rating" id="rating" min="1" max="10" class="form-control" required>
+                                            <!-- <input type="number" name="rating" id="rating" min="1" max="10" class="form-control" required> -->
+                                            <select name="rate" id="rate" class="form-control" required>
+                                                @for ($i = 1; $i < 11; $i++)
+                                                <option value="{{ $i }}">{{ $i }}</option>
+                                                @endfor
+                                            </select>
                                         </div>
                                         <div class="form-group">
                                             <label for="komentar">Komentar</label>

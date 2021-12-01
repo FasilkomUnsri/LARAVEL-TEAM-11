@@ -48,7 +48,7 @@
                                         <h3>{{ $item->judul }}</h3>
                                         <p class="mb-0">{{ $item->sinopsis }}</p>
                                         <div class="text-right">
-                                            <a href="{{ url('film/'.$item->id) }}" class="btn btn-primary btn-sm"> Selengkapnya <i class="fas fa-arrow-right"></i> </a>
+                                            <a href="{{ url('film/'.$item->id) }}" class="btn btn-primary btn-sm"> Beri Review <i class="fas fa-arrow-right"></i> </a>
                                         </div>
                                     </div>
                                 </div>
